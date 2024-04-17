@@ -1,0 +1,802 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/bg_main.gif");
+    background-size: 100%;
+}
+
+/* .header{
+    margin: auto;
+} */
+main {
+
+    width: 66%;
+    margin: auto;
+    border: 5px white; 
+    /* border: 1px solid green; */
+    /* padding: 0px 50px;  */
+
+}
+
+/* .hedar-in{
+    background-color: rgb(85, 17, 103); color:rgb(255, 255, 255);
+    height: 60px;
+    border-bottom: 5px solid greenyellow;
+ 
+  text-align: center;
+} */
+.hedar-in header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(62, 12, 108);
+    border-bottom: 5px solid rgb(10, 185, 10);
+
+}
+
+.hedar-in header .menu ul {
+    display: flex;
+
+}
+
+.hedar-in ul li {
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+.hedar-in ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.submit {
+    background-color: rgb(23, 169, 23);
+    padding: 3px 7px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+/* 
+ .logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 66px;
+ } */
+.logo {
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.govt-logo {
+    bottom: 50px;
+    position: absolute;
+    left: 30px;
+    display: flex;
+}
+
+.govt-logo img {
+    height: 80px;
+    width: 80px;
+
+}
+
+.govt-logo h2 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.govt-logo h4 {
+    color: #ffffff;
+    margin-top: 15px;
+
+    margin-left: 20px;
+}
+
+
+.icon {
+    color: black;
+    margin-top: 10px;
+}
+
+.icon:hover i {
+    color: brown;
+}
+
+.navu {
+    background-color: white;
+    height: 70px;
+
+    display: flex;
+
+}
+
+
+.navu ul {
+
+    display: flex;
+    list-style-type: none;
+}
+
+.navu ul li {
+    margin: 1px;
+    background-color: white;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.navu ul li a {
+    font-size: small;
+    text-decoration: none;
+    color: rgb(60, 12, 12);
+}
+
+.navu ul .a a {
+    color: rgb(222, 69, 52);
+}
+
+.navu ul .b a {
+    color: rgb(216, 130, 0);
+}
+
+.navu ul .c a {
+    color: brown;
+}
+
+.navu ul .d a {
+    color: rgb(6, 143, 50);
+}
+
+.navu ul .e a {
+    color: blue;
+}
+
+.navu ul .f a {
+    color: cornflowerblue;
+}
+
+.navu ul .g a {
+    color: coral;
+}
+
+.navu ul .h a {
+    color: firebrick;
+}
+
+.navu ul .i a {
+    color: rebeccapurple;
+}
+
+.navu ul .j a {
+    color: springgreen;
+}
+
+.navu ul .a:hover {
+    background-color: rgb(222, 69, 52);
+
+}
+
+.navu ul .a:hover a {
+    color: white;
+}
+
+.navu ul .b:hover {
+    background-color: rgb(216, 130, 0);
+}
+
+.navu ul .b:hover a {
+    color: white;
+}
+
+.navu ul .c:hover {
+    background-color: brown;
+}
+
+.navu ul .c:hover a {
+    color: white;
+}
+
+.navu ul .d:hover {
+    background-color: rgb(6, 143, 50);
+}
+
+.navu ul .d:hover a {
+    color: white;
+}
+
+.navu ul .e:hover {
+    background-color: blue;
+}
+
+.navu ul .e:hover a {
+    color: white;
+}
+
+.navu ul .f:hover {
+    background-color: cornflowerblue;
+}
+
+.navu ul .f:hover a {
+    color: white;
+}
+
+.navu ul .g:hover {
+    background-color: coral;
+}
+
+.navu ul .g:hover a {
+    color: white;
+}
+
+.navu ul .h:hover {
+    background-color: firebrick;
+}
+
+.navu ul .h:hover a {
+    color: white;
+}
+
+.navu ul .i:hover {
+    background-color: rebeccapurple;
+}
+
+.navu ul .i:hover a {
+    color: white;
+}
+
+.navu ul .j:hover {
+    background-color: springgreen;
+}
+
+.navu ul .j:hover a {
+    color: white;
+}
+
+
+.navu ul li .A {
+    display: none;
+
+}
+
+.navu ul li:hover .A {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    display: flex;
+    left: 0;
+    z-index: 1;
+}
+
+.navu ul li .A ul {
+
+    display: block;
+    border-top: 10px solid rgb(222, 69, 52);
+    /* margin: 10px;   */
+}
+
+.navu ul li:hover .A ul li a {
+    color: black;
+}
+
+.B {
+    display: none;
+}
+
+.navu ul li:hover .B {
+    display: block;
+    position: absolute;
+    color: black;
+    display: flex;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+
+}
+
+.navu ul li .B ul {
+    display: block;
+    border-top: 10px solid rgb(216, 130, 0);
+
+}
+
+.navu ul li:hover .B ul li a {
+    color: black;
+}
+
+.C {
+    display: none;
+}
+
+.navu ul li:hover .C {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+
+}
+
+.navu ul li:hover .C ul {
+    display: block;
+    border-top: 10px solid brown;
+}
+
+.navu ul li:hover .C ul li a {
+    color: black;
+}
+
+.D {
+    display: none;
+}
+
+.navu ul li:hover .D {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.navu ul li:hover .D ul {
+    display: block;
+    border-top: 10px solid rgb(6, 143, 50);
+}
+
+.navu ul li:hover .D ul li a {
+    color: black;
+}
+
+.E {
+    display: none;
+}
+
+.navu ul li:hover .E {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.navu ul li:hover .E ul {
+    display: block;
+    border-top: 10px solid blue;
+}
+
+.navu ul li:hover .E ul li a {
+    color: black;
+}
+
+.F {
+    display: none;
+}
+
+.navu ul li:hover .F {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.navu ul li:hover .F ul {
+    display: block;
+    border-top: 10px solid cornflowerblue;
+
+}
+
+.navu ul li:hover .F ul li a {
+    color: black;
+}
+
+.G {
+    display: none;
+}
+
+.navu ul li:hover .G {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.navu ul li:hover .G ul {
+    display: block;
+    border-top: 10px solid coral;
+    display: flex;
+
+}
+
+.navu ul li:hover .G ul li a {
+    color: black;
+}
+
+.H {
+    display: none;
+}
+
+.navu ul li:hover .H {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.navu ul li:hover .H ul {
+    display: block;
+    border-top: 10px solid firebrick;
+    display: flex;
+
+}
+
+.navu ul li:hover .H ul li a {
+    color: black;
+}
+
+.I {
+    display: none;
+}
+
+.navu ul li:hover .I {
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.navu ul li:hover .I ul {
+    display: block;
+    border-top: 10px solid rebeccapurple;
+}
+
+.navu ul li:hover .I ul li a {
+    color: black;
+}
+
+.info a {
+    background-color: white;
+    display: inline-block;
+    color: rgb(72, 72, 72);
+    margin-top: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+
+
+}
+
+.info:hover a {
+    background-color: black;
+    color: white;
+}
+
+.country-info {
+    display: flex;
+}
+
+ 
+.information {
+    width: 68%;
+    margin-right: 2%;
+}
+
+.vip-parson {
+    width: 30%;
+}
+
+
+.img-2 {
+    background-color: #EFEFEF;
+    /* border: 3px solid #ff0000; */
+    margin-bottom: 20px;
+    left: 0px;
+
+    width: 100%;
+}
+
+.img-2 img {
+    width: 100%;
+
+}
+
+.news {
+    border: 3px green;
+    padding: 10px 30px;
+    background-color: gainsboro;
+    list-style-type: none;
+    display: flex;
+}
+.news a {
+    text-decoration: none;
+
+}
+.news marquee p a{
+    font-size: 10px;
+    color: black;
+}
+.every a {
+    background-color: rgb(117, 117, 117);
+    text-decoration: none;
+    padding: 3px 7px;
+    color: black;
+}
+
+.notice ul {
+    display: block;
+    padding: 10px 0 20px 120px;
+}
+
+.notice {
+    background-color: #dad7d7;
+}
+.notice ul li a {
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    font-size: small;
+}
+
+.notice ul li:hover a {
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.every-notice a {
+    background-color: rgb(117, 117, 117);
+    text-decoration: none;
+    color: black;
+    margin-left: 88%;
+}
+
+.fa-solid {
+    color: #00bf49;
+}
+
+
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.one .notice-1,
+.one .notice-2 {
+    width: 43%;
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 1px 2px 1px #ccc;
+}
+
+.one .notice-1 ul li a,
+.one .notice-2 ul li a {
+    color: #000000;
+}
+
+.one .notice-1 ul li,
+.notice-2 ul li {
+
+    padding: 0;
+
+
+}
+
+.one .notice-1 ul li a,
+.notice-2 ul li a {
+    font-size: 12px;
+
+}
+
+.one .notice-2 .apply-img img {
+    width: 90px;
+
+
+}
+
+.notice-2 ul li:hover a {
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.notice-2 ul {
+    margin-left: 20px;
+}
+
+.apply-img {
+    display: flex;
+
+}
+
+.notice-2 ul li {
+    display: flex;
+}
+
+.video-hader-text {
+    background-color: #609513;
+    color: white;
+    padding:5px;
+    font-size: 18px;
+}
+
+.video-1 iframe {
+    width: 100%;
+
+}
+
+
+.video-boxin {
+    display: flex;
+    
+
+}
+
+.video-box div {
+    margin: 5PX;
+
+}
+
+.video-boxin{
+    width: 100%;
+    padding: 5px;
+
+}
+
+
+.vip-menu {
+    background-color: #609513;
+    /* margin: 10px; */
+    padding: 5px 20px;
+    color: white;
+}
+.dipu {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.dipu img {
+    /* margin-left: 50px; */
+    
+    height: 140px; 
+}
+
+.dipu a{
+   
+    background-color: gray;
+    color: #000000;
+    padding: 5px 20px;
+    display: block; 
+    margin: 5px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+.email a {
+    text-decoration: none;
+    color: #464646;
+    border-bottom: 1px solid black;
+    margin-left: 60px;
+}
+
+.email:hover a {
+    color: #000000;
+
+}
+
+.email-every p {
+
+    background-color: #6b6b6b;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.list a {
+    display: block;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 13px;
+    border-bottom: 1px solid black;
+}
+
+.list:hover a {
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+
+
+.helpline img {
+    height: 100%;
+    width: 100%;
+
+}
+
+footer{
+    width: 69%;
+    margin: auto;
+}
+
+.finish img {
+   width: 100%;
+}
+
+
+.fa-brands {
+    color: #4800ff;  
+    font-size: 40px; 
+    margin: 20px 0px;
+}
+
+.last-color {
+    background-color: #e2e2e2;
+    display: flex;
+}
+
+
+
+.divaide {
+    width: 50%;
+   
+}.last-menu {
+    width: 50%;
+     
+}
+
+
+.last-menu ul{
+    display: flex;
+}
+
+.last-menu ul li {
+    list-style-type: none;
+}
+
+.last-menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    border-right: 1px dotted #d8d8d8;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.last-menu .map:hover a {
+    background-color: #8a8a8a;
+}
+
+.last-menu .site-map:hover a {
+    background-color: #8a8a8a;
+}
+
+.last-menu .institiute-list:hover a {
+    background-color: #8a8a8a;
+}
+
+.finish-site {
+    margin: 10px;
+    font-size: small;
+}
+
+.divaide p {
+    font-size: 12px;
+}
